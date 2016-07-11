@@ -9,9 +9,22 @@ var res = {
     tile_5_png : "res/tile_5.png",
     tile_6_png : "res/tile_6.png",
     tile_7_png : "res/tile_7.png",
+    tile_7_png : "res/tile_8.png",
+    tile_7_png : "res/tile_9.png",
+    tile_7_png : "res/tile_10.png",
+    tile_7_png : "res/tile_11.png",
+    tile_7_png : "res/tile_12.png",
+    tile_7_png : "res/tile_13.png",
+    tile_7_png : "res/tile_14.png",
+    tile_7_png : "res/tile_15.png",
+    tile_7_png : "res/tile_16.png",
+    tile_7_png : "res/tile_17.png"
 };
 
 var g_resources = [];
 for (var i in res) {
     g_resources.push(res[i]);
 }
+var background = {
+  background : "background_theme.png"
+};
